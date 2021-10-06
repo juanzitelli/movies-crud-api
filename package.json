@@ -4,7 +4,8 @@
   "description": "Node.js & Express API for the MCGA subject's first mid-term exam. Built by @juanzitelli",
   "scripts": {
     "start": "ts-node ./src/server.ts",
-    "dev": "nodemon -x ts-node ./src/server.ts"
+    "dev": "nodemon -x ts-node ./src/server.ts",
+    "commit-staged": "cz"
   },
   "repository": {
     "type": "Git",
