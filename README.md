@@ -18,7 +18,7 @@ To run this project, you will need to add the following environment variables to
 
 `MONGO_DB_CONNECTION_STRING`
 
-## Dependencies nstallation
+## Dependencies installation
 
 Install dependencies for `movies-crud-api` with `npm`.
 
