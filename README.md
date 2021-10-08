@@ -2,6 +2,10 @@
 
 A simple web API that allows the user to create, read, update and delete movies from a non-relational database.
 
+## Documentation
+
+Click [here](https://documenter.getpostman.com/view/9310909/UUy7aPdm) to see the API's documentation and examples.
+
 ## Authors
 
 - [@juanzitelli](https://www.github.com/juanzitelli)
@@ -14,9 +18,9 @@ A simple web API that allows the user to create, read, update and delete movies 
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`PORT`
+`PORT`, being the port where you want the app to be ran at.
 
-`MONGO_DB_CONNECTION_STRING`
+`MONGO_DB_CONNECTION_STRING`, being your custom Mongo DB connection string.
 
 ## Dependencies installation
 
