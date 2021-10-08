@@ -1,12 +1,17 @@
 {
-  "include": ["src/**/*.ts"],
+  "include": ["**/*.ts"],
   "exclude": ["node_modules"],
   "compilerOptions": {
+    "lib": ["es2020", "DOM"],
     "target": "es5",
     "module": "commonjs",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "skipLibCheck": true
+    "allowJs": false,
+    "moduleResolution": "Node",
+    "skipLibCheck": true,
+    "noEmitOnError": true,
+    "rootDir": "./"
   }
 }
