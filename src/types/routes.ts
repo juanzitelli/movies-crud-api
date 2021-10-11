@@ -1,4 +1,3 @@
-export const enum MainRoutes {
   Main = "/",
 }
 

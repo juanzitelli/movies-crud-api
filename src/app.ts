@@ -5,6 +5,9 @@ import cors from "cors";
 
 export const app = express();
 dotenv.config();
+// bodyParser constructor was deprecated, so I rather use this than:
+//app.use(bodyParser.urlencoded());
+//app.use(bodyParser.json());
 
 app.use(express.json());
 app.use(cors());
