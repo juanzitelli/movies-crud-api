@@ -33,6 +33,19 @@ Install dependencies for `movies-crud-api` with `npm`.
   npm i
 ```
 
+## Dependencies installation
+
+Run `movies-crud-api` locally with `npm`.
+
+### npm
+
+```bash
+  cd movies-crud-api
+  npm start // to run the production-like app.
+  // or
+  npm run dev // to run the app on development mode with hot-reload.
+```
+
 ## Demo
 
 [Heroku production deployment](https://movies-crud-api.herokuapp.com/)
