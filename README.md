@@ -33,7 +33,7 @@ Install dependencies for `movies-crud-api` with `npm`.
   npm i
 ```
 
-## Dependencies installation
+## Run the app
 
 Run `movies-crud-api` locally with `npm`.
 
