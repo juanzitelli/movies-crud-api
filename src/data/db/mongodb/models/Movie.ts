@@ -18,33 +18,15 @@ const MovieSchema = new Schema<Movie>({
     required: true,
   },
   genres: {
-    type: [
-      {
-        name: {
-          type: String,
-          required: true,
-        },
-      },
-    ],
-    required: true,
-  },
-  awards: {
-    type: [
-      {
-        name: {
-          type: String,
-          required: true,
-        },
-        year: {
-          type: Number,
-          required: true,
-        },
-      },
-    ],
+    type: [String],
     required: true,
   },
   adults: {
     type: Boolean,
+    required: true,
+  },
+  release_date: {
+    type: Date,
     required: true,
   },
 });
